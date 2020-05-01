@@ -29,7 +29,10 @@ counterButton.addEventListener("click", function () {
     * then updates the inner text of "countspan"
     * to show the current value of "count".
     */
+let newCount = Number(counterButton.innerHTML) +1;
+newCount = countspan
 })
+
 const evenOrOddButton = document.querySelector("#even-or-odd-button");
 evenOrOddButton.addEventListener("click", function () {
     /* TODO 3
